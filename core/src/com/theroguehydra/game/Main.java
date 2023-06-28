@@ -65,6 +65,7 @@ public class Main extends ApplicationAdapter {
 		}
 	}
 
+	// Enemy Generation
 	public void generateEnemies() {
 		if(this.enemyWave%5 == 0 && this.enemyWave>1) {
 			this.enemySpawnRate += 1;
